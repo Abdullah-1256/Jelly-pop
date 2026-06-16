@@ -1,0 +1,75 @@
+name: candy_crush
+description: "Jelly Pop Quest, an offline Flutter match-3 game."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.5.1
+  device_info_plus: ^13.1.0
+  flame: ^1.37.0
+  google_fonts: ^8.1.0
+  go_router: ^17.3.0
+  provider: ^6.1.5
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/bg_music.wav
+    - assets/audio/cascade.wav
+    - assets/audio/level_lose.wav
+    - assets/audio/level_win.wav
+    - assets/audio/match.wav
+    - assets/audio/special.wav
+    - assets/audio/swap.wav
+    - assets/images/bg/BG.png
+    - assets/images/bg/splash.png
+    - assets/images/candies/Color Bome Booster.png
+    - assets/images/candies/Glowing orange.png
+    - assets/images/candies/Golden star.png
+    - assets/images/candies/Jelly Hammer.png
+    - assets/images/candies/Reward Chest.png
+    - assets/images/candies/Rocvet Jelly Booster.png
+    - assets/images/candies/Star.png
+    - assets/images/candies/Starter Pack Badge.png
+    - assets/images/candies/Stawberry.png
+    - assets/images/candies/blue drop.png
+    - assets/images/candies/bomb.png
+    - assets/images/candies/glossy leaf.png
+    - assets/images/candies/glossy stawberry.png
+    - assets/images/candies/glossydrop.png
+    - assets/images/candies/leaf.png
+    - assets/images/candies/orange.png
+    - assets/images/candies/pack candy.png
+    - assets/images/candies/purple drop.png
+    - assets/images/candies/purple jelly.png
+    - assets/images/mascot/logo_transparent.png
+    - assets/images/ui/Audio.png
+    - assets/images/ui/Setting.png
+    - assets/images/ui/Shop.png
+    - assets/images/ui/Team.png
+    - assets/images/ui/about.png
+    - assets/images/ui/backbutton.png
+    - assets/images/ui/coin.png
+    - assets/images/ui/correct.png
+    - assets/images/ui/dimond.png
+    - assets/images/ui/explore.png
+    - assets/images/ui/heart.png
+    - assets/images/ui/locked.png
+    - assets/images/ui/map.png
+    - assets/images/ui/mucis.png
+    - assets/images/ui/mute.png
+    - assets/images/ui/open reward.png
+    - assets/images/ui/reward.png
+    - assets/images/ui/star.png
+    - assets/images/ui/timer.png
